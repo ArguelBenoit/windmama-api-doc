@@ -1,0 +1,22 @@
+
+#Header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  background: white;
+  border-bottom: 1px solid #d4dadf;
+  z-index: 1;
+}
+
+#Header h1 {
+  float: left;
+  margin: 0 0;
+  padding: 11px 0 11px 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#Header h1 span {
+  color: #13ce7a;
+}

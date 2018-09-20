@@ -1,0 +1,36 @@
+
+#SideBar {
+  width: 270px;
+  min-width: 270px;
+  top: 70px;
+  position: fixed;
+  background-color: #f4f7f9;
+  border-right: 1px solid #d4dadf;
+  overflow: scroll
+}
+
+#SideBar .containerMd {
+  margin: auto;
+  padding: 40px 20px;
+  overflow: scroll;
+  width: 230px;
+}
+
+#SideBar .containerMd ul li { list-style: none; }
+#SideBar .containerMd ul li ul { margin-left: 15px; }
+
+#SideBar .containerMd ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 0px;
+  font-size: 105%;
+  transition-duration: 200ms;
+}
+
+#SideBar .containerMd ul li a:hover {
+  padding: 5px 5px;
+  text-decoration: none;
+  background: #fff;
+  border-left: 3px solid #13ce7a;
+  box-shadow: 0 0 2px #ccc;
+}

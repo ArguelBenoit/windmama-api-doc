@@ -1,0 +1,14 @@
+
+#MainContainer {
+  position: fixed;
+  top: 70px;
+  left: 270px;
+  overflow: scroll;
+}
+
+#MainContainer .container {
+  background: #f4f7f9;
+  border-radius: 3px;
+  margin: 40px auto;
+  padding: 20px;
+}
